@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.apptemplet1.MainActivity">
+
+   <RelativeLayout
+       android:layout_width="368dp"
+       android:layout_height="495dp"
+       android:background="#880E4F"
+       tools:layout_editor_absoluteY="8dp"
+       tools:layout_editor_absoluteX="8dp">
+
+       <ImageButton
+           android:layout_width="match_parent"
+           android:layout_height="170dp"
+           android:id="@+id/imagebuttontop"
+           android:adjustViewBounds="true"
+           android:baselineAlignBottom="true"
+           android:cropToPadding="true"
+           android:src="@drawable/taptostart"
+           android:soundEffectsEnabled="true"
+           />
+       <ImageButton
+           android:layout_width="match_parent"
+           android:layout_height="170dp"
+           android:id="@+id/imagebuttonmiddle"
+           android:adjustViewBounds="true"
+           android:baselineAlignBottom="true"
+           android:cropToPadding="true"
+           android:src="@drawable/about"
+           android:layout_below="@+id/imagebuttontop"
+           />
+       <ImageButton
+           android:layout_width="match_parent"
+           android:layout_height="170dp"
+           android:id="@+id/imagebuttonbottom"
+           android:adjustViewBounds="true"
+           android:baselineAlignBottom="true"
+           android:cropToPadding="true"
+           android:src="@drawable/help"
+           android:layout_below="@+id/imagebuttonmiddle"
+           />
+
+   </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
